@@ -73,7 +73,6 @@ const Card =({
  description = "Descriprion",
  link = "https://fridge-saver.vercel.app/",
  linkname = "Click Me"
- 
 })=>{
   const router = useRouter(); 
 return(
