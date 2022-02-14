@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { useRouter } from "next/router";
 
 
-
 const CardCont = styled.div`
 display:flex;
 flex-direction:row;
@@ -69,10 +68,10 @@ mix-blend-mode: multiply;
 `
 
 const Card =({
- title = "MedOrDoc",
- description = "Descriprion",
- link = "https://fridge-saver.vercel.app/",
- linkname = "Click Me"
+  title = "MedOrDoc",
+  description = "Descriprion",
+  link = "https://fridge-saver.vercel.app/",
+  linkname = "Click Me"
 })=>{
   const router = useRouter(); 
 return(
