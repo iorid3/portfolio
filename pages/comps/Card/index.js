@@ -62,7 +62,6 @@ const Img = styled.img`
 width:100%;
 height:100%;
 mix-blend-mode: multiply;
-background-color:white;
 @media (max-width: 767px) {
     width:50px;
   }
