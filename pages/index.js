@@ -6,8 +6,6 @@ import Intro from './comps/Intro'
 import Skills from './comps/Skills'
 import Fade from 'react-reveal/Fade';
 import config from 'react-reveal/globals';
-import Flip from 'react-reveal/Flip';
-import Reveal from 'react-reveal/Reveal';
 import Slide from 'react-reveal/Slide';
 import Pulse from 'react-reveal/Pulse';
 
