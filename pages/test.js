@@ -6,7 +6,6 @@ import Intro from './comps/Intro'
 import Skills from './comps/Skills'
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import Reveal from 'react-reveal/Reveal';
 import config from 'react-reveal/globals';
 config({ ssrFadeout: true });
 

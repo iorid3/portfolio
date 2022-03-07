@@ -4,7 +4,6 @@ import Card from './comps/Card'
 import Nav from './comps/Nav'
 import Intro from './comps/Intro'
 import Skills from './comps/Skills'
-import Fade from 'react-reveal/Fade';
 import config from 'react-reveal/globals';
 import Slide from 'react-reveal/Slide';
 import Pulse from 'react-reveal/Pulse';
