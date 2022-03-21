@@ -70,7 +70,6 @@ margin-bottom:170px;
 }
 `
 
-
 const Title = styled.p`
 display:flex;
 font-weight:bold;
@@ -84,7 +83,6 @@ background-position: center bottom;
 `
 
 const about=()=>{
-  
 
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false }, [Autoplay()])
 
@@ -102,6 +100,7 @@ const about=()=>{
       <About/>
       <Title>Skills</Title>
       <h4>These skills would be updated and improved everyday!</h4>
+      
       <HomeCont>
       <div className="embla" ref={emblaRef}>
         <div className="embla__container">
@@ -111,13 +110,13 @@ const about=()=>{
           <div className="embla__slide"><img width="200px" height = "200px" src = './php.png'/></div>
           <div className="embla__slide"><img width="200px" height = "200px" src = './nodejs.svg'/></div>
           <div className="embla__slide"><img width="200px" height = "200px" src = './next.png'/></div>
-          <div className="embla__slide"><img width="200px" height = "200px" src = './React.png'/></div>
         </div>
       </div>
       </HomeCont>
 
       <Title>Hobby</Title>
       <h4>As I mentioned above, I like traveling. Aftert this pandemic ends, I hope I can travel again</h4>
+    
      <HomeCont>
       <div className="embla" ref={emblaRef}>
         <div className="embla__container">
@@ -129,9 +128,6 @@ const about=()=>{
           <div className="embla__slide"><img width="200px" height = "200px" src = './food3.JPG'/></div>
         </div>
       </div>
-
-
-
      </HomeCont>
 
 
