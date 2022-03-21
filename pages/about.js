@@ -110,6 +110,7 @@ const about=()=>{
           <div className="embla__slide"><img width="200px" height = "200px" src = './php.png'/></div>
           <div className="embla__slide"><img width="200px" height = "200px" src = './nodejs.svg'/></div>
           <div className="embla__slide"><img width="200px" height = "200px" src = './next.png'/></div>
+          <div className="embla__slide"><img width="200px" height = "200px" src = './React.png'/></div>
         </div>
       </div>
       </HomeCont>
