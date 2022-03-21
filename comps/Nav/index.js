@@ -45,10 +45,6 @@ const Nav =({
           <NavLink bg={bgHover} onClick={() => router.push('/about')}>ABOUT</NavLink>
           <NavLink bg={bgHover} onClick={() => router.push('/portfolio')}>PORTFOLIO</NavLink>
       </NavCont>
-     
-
-
-
     )
 }
 

@@ -13,6 +13,7 @@ height:20%;
 border:solid black 1px;
 margin:20px;
 border-radius:10px; 
+box-shadow: 3px 3px 3px gray;
 `
 
 const TextCont = styled.div`
