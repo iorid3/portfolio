@@ -70,8 +70,8 @@ const portfolio =()=>{
       <IntroName>Projects</IntroName>
     <MainCont>
              <Card source ={"./Book.png"} title={"Book Finder"} description ={"Book find app developed by React"}></Card>
-             <Card source ={"./Moji.png"} title={"Moji Meal"} description ={"Food Information developed by React"}></Card>
-             <Card source ={"./Med.png"} title={"MedOrDoc"} description ={"Booking App for a clinic developed by React and React Native"}></Card>
+             <Card source ={"./Moji.png"} title={"Moji Meal"} description ={"Food Information developed by React"}　link = "https://test-moji.vercel.app/"></Card>
+             <Card source ={"./Med.png"} title={"MedOrDoc"} description ={"Booking App for a clinic developed by React and React Native"} link = "https://medordociori.vercel.app/"></Card>
              <Card source ={"./Fridge.png"}title={"Fridge Savor"} description ={"Recipe App developed by React"}></Card>
              <Card source ={"./Scandinavia.png"} title={"Scandinavian Hotel"} description ={"Hotel website developed by Vanila HTML CSS and JS"}></Card>
              <Card source ={"./Candy.png"} title={"Faily Delight"} description ={"Candy shop website developed by Vanila HTML CSS and JS"}></Card>
