@@ -33,6 +33,8 @@ margin:20px;
 const Title  = styled.text`
 font-size:40px;
 margin:10px;
+text-shadow: 1px 1px 1px #e5c046;
+font-style: italic;
 @media (max-width: 767px) {
     font-size:30px;
   }
