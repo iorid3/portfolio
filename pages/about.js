@@ -117,19 +117,14 @@ const about=()=>{
       <Title>Hobby</Title>
       <h4>As I mentioned above, I like traveling. Aftert this pandemic ends, I hope I can travel again</h4>
     
-     <HomeCont>
-      <div className="embla" ref={emblaRef}>
-        <div className="embla__container">
-          <div className="embla__slide"><img width="200px" height = "200px" src = './travel1.JPG'/></div>
-          <div className="embla__slide"><img width="200px" height = "200px" src = './travel2.JPG'/></div>
-          <div className="embla__slide"><img width="200px" height = "200px" src = './travel3.JPG'/></div>
-          <div className="embla__slide"><img width="200px" height = "200px" src = './food1.jpg'/></div>
-          <div className="embla__slide"><img width="200px" height = "200px" src = './food2.jpg'/></div>
-          <div className="embla__slide"><img width="200px" height = "200px" src = './food3.jpg'/></div>
-        </div>
-      </div>
-     </HomeCont>
-
+      <HomeCont>
+          <div><img width="200px" height = "200px" src = './travel1.JPG' /></div>
+          <div><img width="200px" height = "200px" src = './travel2.JPG'/></div>
+          <div><img width="200px" height = "200px" src = './travel3.JPG'/></div>
+          <div><img width="200px" height = "200px" src = './food1.jpg'/></div>
+          <div><img width="200px" height = "200px" src = './food2.jpg'/></div>
+          <div><img width="200px" height = "200px" src = './food3.jpg'/></div> 
+     </HomeCont> 
 
 
     </MainCont>
