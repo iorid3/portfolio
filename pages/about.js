@@ -123,9 +123,9 @@ const about=()=>{
           <div className="embla__slide"><img width="200px" height = "200px" src = './travel1.JPG'/></div>
           <div className="embla__slide"><img width="200px" height = "200px" src = './travel2.JPG'/></div>
           <div className="embla__slide"><img width="200px" height = "200px" src = './travel3.JPG'/></div>
-          <div className="embla__slide"><img width="200px" height = "200px" src = './food1.JPG'/></div>
-          <div className="embla__slide"><img width="200px" height = "200px" src = './food2.JPG'/></div>
-          <div className="embla__slide"><img width="200px" height = "200px" src = './food3.JPG'/></div>
+          <div className="embla__slide"><img width="200px" height = "200px" src = './food1.jpg'/></div>
+          <div className="embla__slide"><img width="200px" height = "200px" src = './food2.jpg'/></div>
+          <div className="embla__slide"><img width="200px" height = "200px" src = './food3.jpg'/></div>
         </div>
       </div>
      </HomeCont>
