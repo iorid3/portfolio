@@ -63,13 +63,18 @@ mix-blend-mode: multiply;
     width:80%;
     height:80%;
   }
+`
 
+const Button = styled.button`
+width:20%;
+height:40px;
+border-radius:10px;
 `
 const Card =({
   title = "MedOrDoc",
   description = "Descriprion",
   link = "https://fridge-saver.vercel.app/",
-  linkname = "Click Me",
+  linkname = "Demo",
   source = "./demo.png"
 })=>{
   const router = useRouter(); 
@@ -84,7 +89,7 @@ return(
             <Title>{title}</Title>
             <Description>{description}</Description>
             <br></br>
-            <button onClick={() => router.push(link)}>{linkname}</button>
+            <Button onClick={() => router.push(link)}>{linkname}</Button>
         </TextCont>
 
     
